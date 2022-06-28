@@ -31,7 +31,7 @@ This package makes it easy to send notification events to [PagerDuty](https://ww
 You can install the package via composer:
 
 ```bash
-composer require laravel-notification-channels/pagerduty
+composer require danhvo/pagerduty
 ```
 
 ## Usage
