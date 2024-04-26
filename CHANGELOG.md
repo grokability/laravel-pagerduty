@@ -1,11 +1,18 @@
 # Changelog
 
-All notable changes to `laravel-notification-channels/pagerduty` will be documented in this file
+All notable changes to `grokability/laravel-pagerduty` will be documented in this file
 
-## [Unreleased]
+##  v 0.6.0 (2024-04-25)
 
-* `export-ignore` both `.editorconfig` and `.style-ci.yml` ([#e86c5e7](https://github.com/laravel-notification-channels/pagerduty/commit/e86c5e7fd1efcf8d99ee1ef9de60add5da01341d))
+* drop illuminate/support requirement since it's been absorbed into Laravel
+* bumping version because this may break on earlier versions of Laravel
 
-## v0.1.0 (2017-05-12)
+## v0.5.0 (2024-04-10)
 
-* initial release
+* initial grokability fork/release
+* support php 8.2
+* rename from pagerduty to laravel-pagerduty
+
+## See
+https://github.com/laravel-notification-channels/pagerduty/blob/master/CHANGELOG.md
+for changes before v0.5.0
